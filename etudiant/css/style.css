@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Generic
+   ========================================================================== */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+  font:
+    normal 1,
+    125rem/160% "Frank Ruhl Libre",
+    sans-serif;
+
+  background-color: #07020d;
+  color: #fff;
+
+  position: relative;
+}
+
+/* ==========================================================================
+   Mise en page
+   ========================================================================== */
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   Element/typographie
+   ========================================================================== */
+
+a {
+  text-decoration: none;
+}
+
+header {
+  color: inherit #07020d;
+
+  position: fixed;
+  width: 100%;
+}
+
+header .wrapper {
+  background-color: #fff;
+  opacity: 80%;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  padding: 10px 20px;
+  max-width: 800px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   Components
+   ========================================================================== */
