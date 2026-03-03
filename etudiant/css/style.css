@@ -75,6 +75,10 @@ button {
   cursor: pointer;
 }
 
+.image {
+  max-width: 100%;
+}
+
 /* ==========================================================================
    Components
    ========================================================================== */
@@ -89,6 +93,9 @@ button {
   padding: 100px 0;
 }
 
-.image {
-  width: 100%;
+.contenu .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  border-radius: 10px;
 }
