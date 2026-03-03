@@ -66,7 +66,7 @@ header .wrapper {
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 button {
@@ -78,3 +78,17 @@ button {
 /* ==========================================================================
    Components
    ========================================================================== */
+
+.hero {
+  height: 400px;
+  background: url(../images/photos/mountains.jpg) no-repeat;
+  background-size: cover;
+}
+
+.contenu {
+  padding: 100px 0;
+}
+
+.image {
+  width: 100%;
+}
