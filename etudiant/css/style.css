@@ -49,6 +49,8 @@ header {
   color: inherit #07020d;
 
   position: fixed;
+  top: 50px;
+  left: 0;
   width: 100%;
 }
 
@@ -98,4 +100,13 @@ button {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   border-radius: 10px;
+}
+
+.material-symbols-outlined {
+  background-color: #07020d;
+  color: #5bd7de;
+  font-size: 44px;
+
+  border-radius: 5px;
+  cursor: pointer;
 }
