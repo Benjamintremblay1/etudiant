@@ -50,9 +50,8 @@ a:active {
   color: inherit;
 }
 
-
 header {
-  color:#07020d;
+  color: #07020d;
 
   position: fixed;
   top: 50px;
@@ -114,7 +113,7 @@ button {
 }
 
 .button {
-  background-color: #07020D;
+  background-color: #07020d;
   color: #5db7de;
 
   width: 44px;
@@ -131,7 +130,6 @@ button {
   right: 20px;
 
   cursor: pointer;
-
 }
 
 .footer {
@@ -159,12 +157,12 @@ button {
 }
 
 .media ul {
-  list-style: none;   
-  margin: 0;          
-  padding: 0;        
-  
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
   display: grid;
-  gap: 10px;          
+  gap: 10px;
 }
 
 .media li {
@@ -174,40 +172,41 @@ button {
   width: 40px;
   height: 40px;
 
-  display: block;     
-  position: relative;  
+  display: block;
+  position: relative;
 
-  transition: left 0.2s ease; 
+  transition: left 0.2s ease;
 }
 
 .media img:hover {
   left: 3px;
 }
 
-
-
 .modal {
-  position: fixed;       
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;         
-  
-  background-color: rgba(0, 0, 0, 0.8); 
-  
-  display: flex;          
-  justify-content: center; 
-  align-items: center;     
-  
-  z-index: 9999;           
-  
+  height: 100vh;
+  padding: 30px;
+
+  background-color: rgba(0, 0, 0, 0.8);
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
 }
 
-
 .modal img.zoom {
-  max-height: 80%;        
-  background-color: #fff; 
-  padding: 30px;         
-  border-radius: 10px;    
-  cursor: pointer;       
+  max-height: 80%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.modal.visible {
+  display: flex;
 }
